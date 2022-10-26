@@ -1,4 +1,4 @@
-package Client.app;
+package client.app;
 
 import client.controller.GameClientProxy;
 import domain.IPlayer;
