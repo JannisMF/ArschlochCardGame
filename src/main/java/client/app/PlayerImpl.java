@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class PlayerImpl implements IPlayer {
     private final String username;
-    //private final GameClientProxy proxy;
+    private final GameClientProxy proxy;
     private List<Card> cards;
     private int numberLaidCards;
     Scanner sc = new Scanner(System.in);
