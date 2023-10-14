@@ -18,7 +18,7 @@ public class ClientRuntime {
         Scanner sc = new Scanner(System.in);
 
         try {
-            Socket socket = new Socket("localhost", 42069);
+            Socket socket = new Socket("localhost", 42068);
             CardGameReader reader = new CardGameReader(new InputStreamReader(socket.getInputStream()));
             CardGamePrinter writer = new CardGamePrinter(new PrintWriter(socket.getOutputStream()));
             GameClientProxy gameClientProxy = new GameClientProxy(reader, writer);
