@@ -28,7 +28,7 @@ public class ServerRuntime {
 
         ServerSocket serverSocket = null;
         try {
-            serverSocket = new ServerSocket(42069);
+            serverSocket = new ServerSocket(42068);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
